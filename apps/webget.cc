@@ -1,5 +1,6 @@
 #include "debug.hh"
 #include "socket.hh"
+#include "address.hh"
 
 #include <cstdlib>
 #include <iostream>
@@ -11,8 +12,21 @@ using namespace std;
 namespace {
 void get_URL( const string& host, const string& path )
 {
-  debug( "Function called: get_URL( \"{}\", \"{}\" )", host, path );
-  debug( "get_URL() function not yet implemented" );
+  string request = "GET " + path + " HTTP/1.1\r\nHost: " + host + "\r\nConnection: close\r\n\r\n";
+
+  cerr << request << endl;
+
+  Address hostaddr(host, "http");
+  TCPSocket socket; //make a socket
+  socket.connect(hostaddr); //connect socket to host, host is an address
+  socket.write_all(request); //write request to socket
+
+  //then fetch it by reading from it into a buffer 
+  string buf = "";
+  while(!socket.eof()){
+    socket.read(buf);
+    cout << buf;
+  }
 }
 } // namespace
 

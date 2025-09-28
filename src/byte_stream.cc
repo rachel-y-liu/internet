@@ -8,35 +8,35 @@ ByteStream::ByteStream( uint64_t capacity ) : capacity_( capacity ) {}
 // Push data to stream, but only as much as available capacity allows.
 void Writer::push( string data )
 {
-  // Your code here (and in each method below)
-  debug( "Writer::push({}) not yet implemented", data );
+  while (buffer.length() < capacity_ && !data.empty()){
+    buffer += data[0];
+    data.erase(0, 1);
+    total_pushed++;
+  }
 }
 
 // Signal that the stream has reached its ending. Nothing more will be written.
 void Writer::close()
 {
-  debug( "Writer::close() not yet implemented" );
+  stream_closed = true;
 }
 
 // Has the stream been closed?
 bool Writer::is_closed() const
 {
-  debug( "Writer::is_closed() not yet implemented" );
-  return {}; // Your code here.
+  return stream_closed;
 }
 
 // How many bytes can be pushed to the stream right now?
 uint64_t Writer::available_capacity() const
 {
-  debug( "Writer::available_capacity() not yet implemented" );
-  return {}; // Your code here.
+  return capacity_ - buffer.length();
 }
 
 // Total number of bytes cumulatively pushed to the stream
 uint64_t Writer::bytes_pushed() const
 {
-  debug( "Writer::bytes_pushed() not yet implemented" );
-  return {}; // Your code here.
+  return total_pushed;
 }
 
 // Peek at the next bytes in the buffer -- ideally as many as possible.
@@ -45,33 +45,30 @@ uint64_t Writer::bytes_pushed() const
 // the caller to do a lot of extra work.
 string_view Reader::peek() const
 {
-  debug( "Reader::peek() not yet implemented" );
-  return {}; // Your code here.
+  return buffer;
 }
 
 // Remove `len` bytes from the buffer.
 void Reader::pop( uint64_t len )
 {
-  debug( "Reader::pop({}) not yet implemented", len );
+  buffer.erase(0, len);
+  total_popped += len;
 }
 
 // Is the stream finished (closed and fully popped)?
 bool Reader::is_finished() const
 {
-  debug( "Reader::is_finished() not yet implemented" );
-  return {}; // Your code here.
+  return stream_closed && total_pushed == total_popped;
 }
 
 // Number of bytes currently buffered (pushed and not popped)
 uint64_t Reader::bytes_buffered() const
 {
-  debug( "Reader::bytes_buffered() not yet implemented" );
-  return {}; // Your code here.
+  return total_pushed - total_popped;
 }
 
 // Total number of bytes cumulatively popped from stream
 uint64_t Reader::bytes_popped() const
 {
-  debug( "Reader::bytes_popped() not yet implemented" );
-  return {}; // Your code here.
+  return total_popped;
 }
