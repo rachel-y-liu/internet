@@ -1,6 +1,6 @@
+#include "address.hh"
 #include "debug.hh"
 #include "socket.hh"
-#include "address.hh"
 
 #include <cstdlib>
 #include <iostream>
@@ -16,15 +16,15 @@ void get_URL( const string& host, const string& path )
 
   cerr << request << endl;
 
-  Address hostaddr(host, "http");
-  TCPSocket socket; //make a socket
-  socket.connect(hostaddr); //connect socket to host, host is an address
-  socket.write_all(request); //write request to socket
+  Address hostaddr( host, "http" );
+  TCPSocket socket;            // make a socket
+  socket.connect( hostaddr );  // connect socket to host, host is an address
+  socket.write_all( request ); // write request to socket
 
-  //then fetch it by reading from it into a buffer 
+  // then fetch it by reading from it into a buffer
   string buf = "";
-  while(!socket.eof()){
-    socket.read(buf);
+  while ( !socket.eof() ) {
+    socket.read( buf );
     cout << buf;
   }
 }

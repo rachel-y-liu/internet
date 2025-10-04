@@ -8,9 +8,9 @@ ByteStream::ByteStream( uint64_t capacity ) : capacity_( capacity ) {}
 // Push data to stream, but only as much as available capacity allows.
 void Writer::push( string data )
 {
-  while (buffer.length() < capacity_ && !data.empty()){
+  while ( buffer.length() < capacity_ && !data.empty() ) {
     buffer += data[0];
-    data.erase(0, 1);
+    data.erase( 0, 1 );
     total_pushed++;
   }
 }
@@ -51,7 +51,7 @@ string_view Reader::peek() const
 // Remove `len` bytes from the buffer.
 void Reader::pop( uint64_t len )
 {
-  buffer.erase(0, len);
+  buffer.erase( 0, len );
   total_popped += len;
 }
 

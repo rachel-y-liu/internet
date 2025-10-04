@@ -41,7 +41,6 @@ public:
   bool is_closed() const;              // Has the stream been closed?
   uint64_t available_capacity() const; // How many bytes can be pushed to the stream right now?
   uint64_t bytes_pushed() const;       // Total number of bytes cumulatively pushed to the stream
-  
 };
 
 class Reader : public ByteStream
