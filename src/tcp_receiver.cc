@@ -1,18 +1,42 @@
 #include "tcp_receiver.hh"
 #include "debug.hh"
+#include "wrapping_integers.hh"
+#include <optional>
+#include <iostream>
+#include <algorithm>
 
 using namespace std;
 
 void TCPReceiver::receive( TCPSenderMessage message )
 {
-  // Your code here.
-  debug( "unimplemented receive() called" );
-  (void)message;
+  //Set ISN if necessary
+  if (message.SYN) {
+    ISN = message.seqno;
+  }
+  //Push any data to the reassembler
+  uint64_t checkpoint = reassembler_.writer().bytes_pushed();
+  uint64_t abs_seqno = message.seqno.unwrap(*ISN, checkpoint);
+  uint64_t stream_index = message.SYN ? 0 : abs_seqno - 1;
+
+  cout << "stream_index: " << stream_index << endl;
+  cout << "message.payload: " << message.payload << endl;
+  cout << "message.FIN: " << message.FIN << endl;
+
+  reassembler_.insert(stream_index, message.payload, message.FIN);
+
+  if (message.RST) reassembler_.reader().set_error();
+
 }
 
 TCPReceiverMessage TCPReceiver::send() const
 {
-  // Your code here.
-  debug( "unimplemented send() called" );
-  return {};
+  TCPReceiverMessage message;
+  if (ISN) {
+    uint64_t abs_ackno = reassembler_.writer().bytes_pushed() + 1;
+    if (reassembler_.writer().is_closed()) abs_ackno += 1;
+    message.ackno = Wrap32::wrap(abs_ackno, *ISN); // stream index -> abs seqno -> seqno
+  }
+  message.window_size = min(reassembler_.writer().available_capacity(), (uint64_t)UINT16_MAX);
+  if (reassembler_.reader().has_error()) message.RST = true;
+  return message;
 }
