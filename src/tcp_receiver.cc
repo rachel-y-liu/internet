@@ -13,18 +13,14 @@ void TCPReceiver::receive( TCPSenderMessage message )
   if (message.SYN) {
     ISN = message.seqno;
   }
+  if (message.RST) reassembler_.reader().set_error();
+  if (!ISN) return;
   //Push any data to the reassembler
   uint64_t checkpoint = reassembler_.writer().bytes_pushed();
   uint64_t abs_seqno = message.seqno.unwrap(*ISN, checkpoint);
   uint64_t stream_index = message.SYN ? 0 : abs_seqno - 1;
 
-  cout << "stream_index: " << stream_index << endl;
-  cout << "message.payload: " << message.payload << endl;
-  cout << "message.FIN: " << message.FIN << endl;
-
   reassembler_.insert(stream_index, message.payload, message.FIN);
-
-  if (message.RST) reassembler_.reader().set_error();
 
 }
 
