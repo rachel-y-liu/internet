@@ -48,8 +48,8 @@ private:
   uint64_t RTO_ = initial_RTO_ms_;
   uint64_t timer_time_ = 0;
   bool timer_on_ = false;
-  uint64_t abs_seqno_ = 0; //the next seqno we need to pop
-  uint64_t abs_ackno_; //the last seqno that we know the receiver has received
+  uint64_t abs_seqno_ = 0; // the next seqno we need to pop
+  uint64_t abs_ackno_;     // the last seqno that we know the receiver has received
   uint64_t consecutive_retransmissions_ = 0;
   uint64_t window_size_ = 1;
   bool FINsent = false;
