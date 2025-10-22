@@ -25,6 +25,8 @@ I used a queue to store outstanding bytes. When deciding on a data structure, th
 
 If I had more time, I would consider implementing a bytes_in_flight counter, which tracks the bytes sent out minus the bytes received. However, I chose not to due to complexity and time restraints. It would've taken definitely 30 additional minutes to code and introduced risk to bugs because additional and subtraction from the variable are handled manually.
 
+I also tracked abs_seqno(the next seqno that has not yet been popped from the bytestream) and abs_ackno (the last seqno that has been acknowledged). I could also have tracked stream index, but it would've required an additional state variable to track SYN and FIN flags, which would've added unnecessary complexity.
+
 
 Taking advantage of a queue's FIFO structure makes removing the oldest unacknowledged element simple.
 
