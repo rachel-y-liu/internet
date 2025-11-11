@@ -1,0 +1,413 @@
+PING 162.105.253.58 (162.105.253.58) 56(84) bytes of data.
+[1761193189.615183] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1 e5 ac f9 68 0 0 0 0 b2 44 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193189.818468] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 2 e5 ac f9 68 0 0 0 0 27 63 9 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193190.022310] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3 e5 ac f9 68 0 0 0 0 48 7d c 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193190.225999] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 4 e6 ac f9 68 0 0 0 0 65 57 0 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193190.429289] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5 e6 ac f9 68 0 0 0 0 f7 72 3 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193190.632972] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 6 e6 ac f9 68 0 0 0 0 15 8d 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193190.836260] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 7 e6 ac f9 68 0 0 0 0 c1 a8 9 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193191.039957] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 8 e6 ac f9 68 0 0 0 0 d0 c2 c 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193191.243882] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 9 e7 ac f9 68 0 0 0 0 3e 9c 0 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193191.446943] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 a e7 ac f9 68 0 0 0 0 de b5 3 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193191.650302] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 b e7 ac f9 68 0 0 0 0 fc d1 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193191.650412] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 b e7 ac f9 68 0 0 0 0 fc d1 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193192.065862] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 d e7 ac f9 68 0 0 0 0 e0 26 d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193192.269229] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 e e8 ac f9 68 0 0 0 0 74 1 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193192.472777] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 f e8 ac f9 68 0 0 0 0 eb 1b 4 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193192.676246] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 10 e8 ac f9 68 0 0 0 0 f9 36 7 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193192.879841] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 11 e8 ac f9 68 0 0 0 0 c6 51 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193193.083325] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 12 e8 ac f9 68 0 0 0 0 b 6d d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193193.083386] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 12 e8 ac f9 68 0 0 0 0 b 6d d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193193.490647] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 14 e9 ac f9 68 0 0 0 0 c5 60 4 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193193.694179] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 15 e9 ac f9 68 0 0 0 0 18 7d 7 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193193.905942] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 16 e9 ac f9 68 0 0 0 0 d7 97 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193193.905992] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 16 e9 ac f9 68 0 0 0 0 d7 97 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193194.104334] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 17 e9 ac f9 68 0 0 0 0 7a b6 d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193194.508119] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 19 ea ac f9 68 0 0 0 0 3a a4 4 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193194.711962] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1a ea ac f9 68 0 0 0 0 3 c1 7 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193194.915642] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1b ea ac f9 68 0 0 0 0 4d dd a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193194.915693] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1b ea ac f9 68 0 0 0 0 4d dd a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193195.335812] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1d eb ac f9 68 0 0 0 0 ff eb 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193195.335915] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1d eb ac f9 68 0 0 0 0 ff eb 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193195.533650] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1e eb ac f9 68 0 0 0 0 1b 8 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193195.734916] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 1f eb ac f9 68 0 0 0 0 ae 1d 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193196.142386] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 21 eb ac f9 68 0 0 0 0 eb 4e e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193196.346069] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 22 ec ac f9 68 0 0 0 0 62 2c 2 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193196.549700] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 23 ec ac f9 68 0 0 0 0 12 48 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193196.753209] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 24 ec ac f9 68 0 0 0 0 a3 63 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193196.956376] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 25 ec ac f9 68 0 0 0 0 6b 7e b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193196.956505] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 25 ec ac f9 68 0 0 0 0 6b 7e b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193197.157855] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 26 ec ac f9 68 0 0 0 0 d2 8f e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193197.360135] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 27 ed ac f9 68 0 0 0 0 3 64 2 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193197.764485] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 29 ed ac f9 68 0 0 0 0 76 90 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193197.764679] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 29 ed ac f9 68 0 0 0 0 76 90 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193197.965245] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 2a ed ac f9 68 0 0 0 0 19 a0 b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193198.371388] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 2c ee ac f9 68 0 0 0 0 e9 8e 2 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193198.573961] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 2d ee ac f9 68 0 0 0 0 22 a8 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193198.777709] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 2e ee ac f9 68 0 0 0 0 33 c2 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193198.981103] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 2f ee ac f9 68 0 0 0 0 20 de b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193199.184318] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 30 ee ac f9 68 0 0 0 0 9b f8 e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193199.388055] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 31 ef ac f9 68 0 0 0 0 2e d0 2 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193199.591309] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 32 ef ac f9 68 0 0 0 0 ff e8 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193199.794871] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 33 ef ac f9 68 0 0 0 0 1a 6 9 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193199.998293] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 34 ef ac f9 68 0 0 0 0 27 21 c 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193200.202315] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 35 ef ac f9 68 0 0 0 0 12 3c f 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193200.406174] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 36 f0 ac f9 68 0 0 0 0 79 16 3 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193200.611450] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 37 f0 ac f9 68 0 0 0 0 e8 32 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193200.814530] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 38 f0 ac f9 68 0 0 0 0 d9 50 9 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193201.019077] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 39 f0 ac f9 68 0 0 0 0 65 6e c 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193201.223058] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3a f1 ac f9 68 0 0 0 0 af 4a 0 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193201.427174] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3b f1 ac f9 68 0 0 0 0 ac 67 3 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193201.631003] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3c f1 ac f9 68 0 0 0 0 da 84 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193201.836909] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3d f1 ac f9 68 0 0 0 0 2 a1 9 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193202.044914] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3e f1 ac f9 68 0 0 0 0 5b c5 c 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193202.044959] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3e f1 ac f9 68 0 0 0 0 5b c5 c 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193202.246254] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 3f f2 ac f9 68 0 0 0 0 d9 a4 0 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193202.657811] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 41 f2 ac f9 68 0 0 0 0 cc ee 6 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193202.861272] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 42 f2 ac f9 68 0 0 0 0 d8 9 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193203.064861] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 43 f2 ac f9 68 0 0 0 0 a3 24 d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193203.267920] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 44 f3 ac f9 68 0 0 0 0 8c fd 0 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193203.267978] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 44 f3 ac f9 68 0 0 0 0 8c fd 0 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193203.673121] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 46 f3 ac f9 68 0 0 0 0 88 2a 7 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193203.878133] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 47 f3 ac f9 68 0 0 0 0 9c 45 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193203.878210] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 47 f3 ac f9 68 0 0 0 0 9c 45 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193204.078854] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 48 f3 ac f9 68 0 0 0 0 30 56 d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193204.277888] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 49 f4 ac f9 68 0 0 0 0 2b 23 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193204.480655] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 4a f4 ac f9 68 0 0 0 0 f6 32 4 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193204.887162] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 4c f4 ac f9 68 0 0 0 0 b9 6d a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193205.090615] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 4d f4 ac f9 68 0 0 0 0 aa 89 d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193205.293951] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 4e f5 ac f9 68 0 0 0 0 25 62 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193205.497620] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 4f f5 ac f9 68 0 0 0 0 70 7c 4 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193205.701217] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 50 f5 ac f9 68 0 0 0 0 fd 97 7 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193205.904692] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 51 f5 ac f9 68 0 0 0 0 54 b3 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193206.108712] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 52 f5 ac f9 68 0 0 0 0 1f ce d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193206.108766] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 52 f5 ac f9 68 0 0 0 0 1f ce d 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193206.308902] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 53 f6 ac f9 68 0 0 0 0 dc 9c 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193206.715138] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 55 f6 ac f9 68 0 0 0 0 79 c9 7 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193206.922796] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 56 f6 ac f9 68 0 0 0 0 cf e9 a 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193207.126634] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 57 f6 ac f9 68 0 0 0 0 e4 14 e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193207.330783] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 58 f7 ac f9 68 0 0 0 0 d0 ee 1 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193207.533806] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 59 f7 ac f9 68 0 0 0 0 57 c 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193207.737171] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5a f7 ac f9 68 0 0 0 0 6d 25 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193207.941327] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5b f7 ac f9 68 0 0 0 0 19 40 b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193208.144901] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5c f7 ac f9 68 0 0 0 0 66 5d e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193208.348047] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5d f8 ac f9 68 0 0 0 0 33 36 2 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193208.348170] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5d f8 ac f9 68 0 0 0 0 33 36 2 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193208.550076] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 5e f8 ac f9 68 0 0 0 0 66 47 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193208.952701] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 60 f8 ac f9 68 0 0 0 0 66 70 b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193209.156272] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 61 f8 ac f9 68 0 0 0 0 a6 89 e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193209.156370] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 61 f8 ac f9 68 0 0 0 0 a6 89 e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193209.561470] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 63 f9 ac f9 68 0 0 0 0 40 76 5 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193209.764708] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 64 f9 ac f9 68 0 0 0 0 74 91 8 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193209.967876] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 65 f9 ac f9 68 0 0 0 0 56 ab b 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193210.171863] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 66 f9 ac f9 68 0 0 0 0 f6 c4 e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 
+[1761193210.171911] 64 bytes from 162.105.253.58: icmp_seq=0 ttl=255 time=0.000 ms (DUP!)
+wrong data byte #16 should be 0x10 but was 0x0
+#16	0 1 0 66 f9 ac f9 68 0 0 0 0 f6 c4 e 0 0 0 0 0 10 11 12 13 14 15 16 17 18 19 1a 1b 
+#48	1c 1d 1e 1f 20 21 22 23 

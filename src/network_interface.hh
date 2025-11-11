@@ -6,6 +6,8 @@
 
 #include <memory>
 #include <queue>
+#include <unordered_map>
+#include <queue>
 
 // A "network interface" that connects IP (the internet layer, or network layer)
 // with Ethernet (the network access layer, or link layer).
@@ -51,7 +53,7 @@ public:
   // hop. Sending is accomplished by calling `transmit()` (a member variable) on the frame.
   void send_datagram( InternetDatagram dgram, const Address& next_hop );
 
-  // Receives an Ethernet frame and responds appropriately.
+  // Receives an Ethernet frame and  responds appropriately.
   // If type is IPv4, pushes the datagram to the datagrams_in queue.
   // If type is ARP request, learn a mapping from the "sender" fields, and send an ARP reply.
   // If type is ARP reply, learn a mapping from the "sender" fields.
@@ -82,4 +84,19 @@ private:
 
   // Datagrams that have been received
   std::queue<InternetDatagram> datagrams_received_ {};
+
+  //Datagrams waiting to be sent
+  std::unordered_map<uint32_t, std::queue<InternetDatagram>> datagrams_waiting_;
+  std::unordered_map<uint32_t, size_t> arp_requests_waiting_;
+
+  struct ARPEntry{
+    EthernetAddress ether_addr;
+    size_t time_created;
+  };
+
+  //Mapping of IP addr
+  std::unordered_map<uint32_t, ARPEntry> ip_ether_map_; //Key: IP Addr, Value: Ether Addr, Time
+
+  size_t current_time_ = 0;
+  
 };

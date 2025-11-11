@@ -1,6 +1,6 @@
 #include "address.hh"
 #include "debug.hh"
-#include "socket.hh"
+#include "tcp_minnow_socket.hh"
 
 #include <cstdlib>
 #include <iostream>
@@ -17,7 +17,7 @@ void get_URL( const string& host, const string& path )
   cerr << request << endl;
 
   Address hostaddr( host, "http" );
-  TCPSocket socket;            // make a socket
+  CS144TCPSocket socket;            // make a socket
   socket.connect( hostaddr );  // connect socket to host, host is an address
   socket.write_all( request ); // write request to socket
 
@@ -27,6 +27,7 @@ void get_URL( const string& host, const string& path )
     socket.read( buf );
     cout << buf;
   }
+  socket.wait_until_closed();
 }
 } // namespace
 
