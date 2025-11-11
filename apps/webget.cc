@@ -17,7 +17,7 @@ void get_URL( const string& host, const string& path )
   cerr << request << endl;
 
   Address hostaddr( host, "http" );
-  CS144TCPSocket socket;            // make a socket
+  CS144TCPSocket socket;       // make a socket
   socket.connect( hostaddr );  // connect socket to host, host is an address
   socket.write_all( request ); // write request to socket
 
