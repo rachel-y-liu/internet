@@ -46,7 +46,7 @@ void NetworkInterface::send_datagram( InternetDatagram dgram, const Address& nex
     // but, we should still queue that datagram
     if ( !arp_requests_waiting_.contains( next_hop.ipv4_numeric() ) ) {
       // If ARP Request for that IP address has not been sent in the past 5 seconds, broadcast ARP
-      debug( "destination ethernet address is unknown, arp request has not been sent recently, broadcast arp" );
+      //debug( "destination ethernet address is unknown, arp request has not been sent recently, broadcast arp" );
       ARPMessage request;
       request.opcode = ARPMessage::OPCODE_REQUEST;
       request.sender_ethernet_address = ethernet_address_;
@@ -91,7 +91,7 @@ void NetworkInterface::recv_frame( EthernetFrame frame )
       // If it's an ARP request asking for our IP address...
       if ( arp_message.opcode == ARPMessage::OPCODE_REQUEST
            && arp_message.target_ip_address == ip_address_.ipv4_numeric() ) {
-        debug( "It's an arp request asking for our IP address!" );
+        //debug( "It's an arp request asking for our IP address!" );
         // Send an arp reply
         ARPMessage reply;
         reply.opcode = ARPMessage::OPCODE_REPLY;
@@ -109,7 +109,7 @@ void NetworkInterface::recv_frame( EthernetFrame frame )
         reply_frame.header = header;
         reply_frame.payload = serialize( reply );
         transmit( reply_frame );
-        debug( "Arp reply sent!" );
+        //debug( "Arp reply sent!" );
       }
 
       // Check datagrams_waiting queue to send newly matched datagrams

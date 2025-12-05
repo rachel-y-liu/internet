@@ -32,12 +32,14 @@ The key functionality lies in being given an IP address and being able to extrac
 
 Implementation Challenges:
 
-I struggled with the conceptual difference between a arp request in waiting and a datagram in waiting; I thought each datagram entry needed a time stamp. 
+I struggled with the conceptual difference between a arp request in waiting and a datagram in waiting; I thought each datagram entry needed a time stamp. I resolved this by looking carefully at what test cases expected.
 
-Another challenge was learning how to utilize so many different structures (i.e. arp message, ethernet header, ethernet frame) and their required parameters, which required digging through many header files.
+Another challenge was learning how to utilize so many different structures (i.e. arp message, ethernet header, ethernet frame) and their required parameters. I resolved this by referring to header files to resolve any confusions.
+
+I debugged using debug statements to track the conditions and states.
 
 Remaining Bugs:
-There remain some gaps in logic, such as resending ARP requests, which are beyond the scope of this project.
+There remain some gaps in logic, such as resending ARP requests when no reply is received, which are beyond the scope of this project. Properly handling expiration, errors, and restransmission requires additional testing.
 
 
 - If applicable: I received help from a former student in this class,
