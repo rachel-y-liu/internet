@@ -1,11 +1,9 @@
-Stanford CS 144 Networking Lab
+Overview
 ==============================
+Internet network including bytestream assembler, TCP connection with TCP receiver/sender, network interfacing, and IP routing.
 
-These labs are open to the public under the (friendly, but also mandatory)
-condition that to preserve their value as a teaching tool, solutions not
-be posted publicly by anybody.
-
-Website: https://cs144.stanford.edu
+Getting Started
+==============================
 
 To set up the build system: `cmake -S . -B build`
 
